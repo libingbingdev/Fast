@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceGroup
+    xmlns:camera="http://schemas.android.com/apk/res/com.example.user.fast">
+
+    <!--<com.example.user.fast.data.CamListPreference
+        camera:key="com.example.user.fast.module.VideoModule"
+        camera:title="@string/mode_video"/>-->
+
+    <com.example.user.fast.data.CamListPreference
+        camera:key="com.example.user.fast.module.PhotoModule"
+        camera:title="@string/mode_photo"/>
+
+    <!--<com.example.user.fast.data.CamListPreference
+        camera:key="com.example.user.fast.module.ProfessionalModule"
+        camera:title="@string/mode_professional"/> -->
+
+    <com.example.user.fast.data.CamListPreference
+        camera:key="com.example.user.fast.module.DualCameraModule"
+        camera:title="@string/mode_dual_camera"/>
+</PreferenceGroup>
